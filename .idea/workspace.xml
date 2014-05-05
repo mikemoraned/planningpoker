@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="229c97c1-67a7-417c-8e70-0c719d048d87" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/vote.ejs" afterPath="$PROJECT_DIR$/views/vote.ejs" />
     </list>
     <ignored path="planningpoker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,19 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="137" selection-end="367" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="360">
+            <state line="11" column="28" selection-start="222" selection-end="222" vertical-scroll-proportion="0.18665159" vertical-offset="0" max-vertical-offset="884">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="66" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.90088105" vertical-offset="202" max-vertical-offset="1125">
+            <state line="68" column="66" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -55,7 +56,7 @@
       <file leaf-file-name="vote.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/vote.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="380" selection-end="380" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="405">
+            <state line="10" column="28" selection-start="221" selection-end="221" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -105,11 +106,11 @@
         <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/views/layout.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
-        <option value="$PROJECT_DIR$/views/vote.ejs" />
         <option value="$PROJECT_DIR$/views/display.ejs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/vote.ejs" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
   </component>
@@ -341,23 +342,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="137" selection-end="367" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/display.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="37" selection-start="265" selection-end="265" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/vote.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="380" selection-end="380" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
@@ -371,7 +358,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="66" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.90088105" vertical-offset="202" max-vertical-offset="1125">
+        <state line="68" column="66" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/vote.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="221" selection-end="221" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="222" selection-end="222" vertical-scroll-proportion="0.18665159" vertical-offset="0" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
