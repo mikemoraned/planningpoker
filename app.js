@@ -9,6 +9,34 @@ var express = require('express')
 var app = module.exports = express.createServer();
 var io = require('socket.io').listen(app);
 
+// Rooms
+var rooms = {};
+var registerRoom = function(name) {
+    if (!rooms[name]) {
+        console.log("Registering " + name);
+        var votes = [];
+        var room = {
+            name: name,
+            vote: function(vote) {
+                votes.push(vote);
+                io.sockets.emit('snapshot-' + name, votes);
+            }
+        };
+
+        rooms[name] = room;
+    }
+
+    return rooms[name];
+};
+
+io.sockets.on('connection', function (socket) {
+    socket.on('vote', function (vote) {
+        var room = registerRoom(vote.room);
+        room.vote(vote);
+        console.log(vote);
+    });
+});
+
 // Configuration
 
 app.configure(function(){
@@ -19,6 +47,7 @@ app.configure(function(){
     app.use(express.methodOverride());
     app.use(app.router);
     app.use(express.static(__dirname + '/public'));
+    app.set('registerRoom', registerRoom);
 });
 
 app.configure('development', function(){

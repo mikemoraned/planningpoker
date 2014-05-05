@@ -6,6 +6,17 @@
 </head>
 <body>
 <h1><%= title %></h1>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    var socket = io.connect('/');
+    var userId = '<%= user %>';
+    var roomId = '<%= room.name %>';
 
+    socket.emit('vote', {
+        user: userId,
+        room: roomId,
+        value: Math.random()
+    });
+</script>
 </body>
 </html>
