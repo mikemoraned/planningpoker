@@ -1,9 +1,10 @@
 {
-    "name": "application-name"
-  , "version": "0.0.1"
-  , "private": true
-  , "dependencies": {
-      "express": "2.5.4"
-    , "jade": ">= 0.0.1"
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "2.5.4",
+    "socket.io": "~0.9.16",
+    "ejs": "~1.0.0"
   }
 }
