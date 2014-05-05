@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="229c97c1-67a7-417c-8e70-0c719d048d87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/display.ejs" afterPath="$PROJECT_DIR$/views/display.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/vote.ejs" afterPath="$PROJECT_DIR$/views/vote.ejs" />
     </list>
     <ignored path="planningpoker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
+            <state line="68" column="66" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.90088105" vertical-offset="202" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -74,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="4" selection-start="431" selection-end="431" vertical-scroll-proportion="0.33039647" vertical-offset="0" max-vertical-offset="908">
+            <state line="20" column="4" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -112,8 +108,8 @@
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/vote.ejs" />
         <option value="$PROJECT_DIR$/views/display.ejs" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -359,13 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/vote.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="13" selection-start="380" selection-end="380" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="405">
@@ -375,7 +364,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="4" selection-start="431" selection-end="431" vertical-scroll-proportion="0.33039647" vertical-offset="0" max-vertical-offset="908">
+        <state line="20" column="4" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="66" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.90088105" vertical-offset="202" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
